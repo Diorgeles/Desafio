@@ -13,4 +13,4 @@ class Endereco_manager(models.Manager):
     
     def VerificaIgualdade(self, rua, numero, distrito, cidade, estado, pais):
         if self.get_query_set().filter(rua__iexact=rua, numero=numero, distrito__iexact=distrito, cidade__iexact=cidade, estado__iexact=estado, pais__iexact=pais).count() > 0:
-            return self.get_query_set().get(rua=rua, numero=numero, distrito=distrito, cidade=cidade, estado=estado, pais=pais)    
+            return self.get_query_set().get(rua__iexact=rua, numero=numero, distrito__iexact=distrito, cidade__iexact=cidade, estado__iexact=estado, pais__iexact=pais)    
