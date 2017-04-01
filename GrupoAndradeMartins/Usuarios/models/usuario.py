@@ -11,10 +11,6 @@ from Usuarios.managers.usuario_manager import Usuario_manager
 import uuid
 from django.utils.datetime_safe import datetime
 
-SEXO = (
-    ('M', 'Masculino'),
-    ('F', 'Feminino'),
-)
 class Usuario(models.Model):
     '''
     Modelo de Usuario:
