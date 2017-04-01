@@ -110,7 +110,7 @@ Para editar os dados de um usuário será necessário passar o email e senha ou 
 {
 	"email": " seuemail@email.com ",
 	"password": "suaSenha",
-        
+
 	"name": "José Soares",
 	"street": "rua abc",
 	"number": "210",
@@ -118,7 +118,7 @@ Para editar os dados de um usuário será necessário passar o email e senha ou 
 	"city": "Belo Horizonte",
 	"state": "MG",
 	"country": "Brasil"
-    }
+}
 ```
 
 Ou 
