@@ -138,3 +138,7 @@ Ou
 }
 ```
 
+# Nota
+
+Acabei me passando de lhe enviar as informações do admin, por conta de não constar no cronograma solicitado, segue o link abaixo. 
+* http://www.sinitaftc.com.br/sinita/admin/
